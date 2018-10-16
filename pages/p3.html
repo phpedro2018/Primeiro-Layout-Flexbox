@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Layout com Flexbox</title>
+	<link rel="stylesheet" type="text/css" href="../css/estilo.css">
+	<link rel="stylesheet" type="text/css" href="../css/animated.css">
+		
+
+</head>
+<body>
+
+	<!--/barra de navegação  -->
+	<header id="" class="">
+		<div class="container">
+			<div class="logo">
+				<!-- logomarca -->
+				<a href="../" title=""><img src="../img/logo.png" alt="logo"></a>
+			</div>
+			
+			<div class="menu">
+				<nav>
+					<div class="botao-mobile">
+						<img src="../img/botaomenu.png" alt="">
+					</div>
+					<!-- botoes do menu -->
+					<ul>
+						<li><a href="../">Início</a></li>
+						<li><a href="p1.html" title="" class="active">Sobre</a></li>
+						<li><a href="p2.html" title="">Serviços</a></li>
+						<li><a href="p3.html" title="">Galeria</a></li>
+						<li><a href="p4.html" title="">Contatos</a></li>
+					</ul>
+				</nav>
+			</div>
+		</div>
+	</header>
+	<!-- /fim da barra de navegação -->
+
+	<!--/ todos os conteudos que serão visto  -->
+	<section class="galeria animated fadeIn">
+	<h3>Galeria com Flexbox?!</h3>
+	<p>Será que é possível criar uma galeria usando Flexbox? Sim, é possível, olha so!</p>
+	<hr>
+	<ul class="grid">
+		<li class="col-a" style="background-image: url('../img/fotodefault.png')"></li>
+
+		<li class="col-b" style="background-image: url('../img/fotodefault.png')"></li>
+		<li class="col-b" style="background-image: url('../img/fotodefault.png')"></li>
+		
+		<li class="col-c" style="background-image: url('../img/fotodefault.png')"></li>
+		<li class="col-c" style="background-image: url('../img/fotodefault.png')"></li>
+		<li class="col-c" style="background-image: url('../img/fotodefault.png')"></li>
+
+		<li class="col-c" style="background-image: url('../img/fotodefault.png')"></li>
+		<li class="col-p" style="background-image: url('../img/fotodefault.png')"></li>
+
+		<li class="col-p" style="background-image: url('../img/fotodefault.png')"></li>
+		<li class="col-c" style="background-image: url('../img/fotodefault.png')"></li>
+	</ul>
+	</section>
+
+
+	<section class="galeria2 animated fadeIn">
+		<h3>Vamos ver como fica a galeria 2 com Flexbox?!</h3>
+		<p>Tudo isso é um teste de aprendizado, Flexbox é vida!!!</p>
+		<hr>
+		<div class="grid2">
+			<img src="../img/fotodefault.png" alt="" class="col-a">
+			<img src="../img/fotodefault.png" alt="" class="col-a">
+			<img src="../img/fotodefault.png" alt="" class="col-a">
+			<img src="../img/fotodefault.png" alt="" class="col-a">
+
+			<img src="../img/fotodefault.png" alt="" class="col-b">
+			<img src="../img/fotodefault.png" alt="" class="col-b">
+			<img src="../img/fotodefault.png" alt="" class="col-b">
+
+			<img src="../img/fotodefault.png" alt="" class="col-c">
+			<img src="../img/fotodefault.png" alt="" class="col-c">
+
+			<img src="../img/fotodefault.png" alt="" class="col-d">
+		</div>
+	</section>
+
+	<footer>
+		<article class="af01">
+				Parceiros
+			</article>
+			<article class="af02">
+				Links Atalhos
+			</article>
+			<article class="af03">
+				Marca
+			</article>
+	</footer>
+
+
+
+	<!-- importando o javascript -->
+	<script type="text/javascript" src="../js/jQuery.js"></script>
+	<script type="text/javascript" src="../js/botao.js"></script>
+</body>
+</html>
